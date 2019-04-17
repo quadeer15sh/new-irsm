@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">irsm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="payment_name">custom list</string>
+    <string-array name="paymentType">
+        <item>Netbanking</item>
+        <item>Card Payment</item>
+        <item>UPI</item>
+    </string-array>
+
+    <string name="font_awesome_cart">&#xf07a;</string>
+    <string name="font_awesome_feedback">&#xf086;</string>
+    <string name="font_awesome_heart">&#xf0c0;</string>
+    <string name="font_awesome_list">&#xf03a;</string>
+</resources>
+
+

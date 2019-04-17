@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:id="@+id/btnBar"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/mButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-158dp"
+        android:layout_marginTop="50dp"
+        android:text="BARCODE" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Enter Barcode"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginRight="1dp"
+        android:background="#12cfdf"
+        android:text="Save to Cart"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="54dp"
+        android:text="Calculate Total" />
+
+    <Button
+        android:id="@+id/btnCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginLeft="289dp"
+        android:layout_marginBottom="3dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Checkout"
+        tools:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="17dp"
+        android:text="Rs. 0"
+        android:textSize="24sp" />
+
+</RelativeLayout>
